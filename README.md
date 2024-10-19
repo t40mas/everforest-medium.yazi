@@ -12,8 +12,6 @@
 
 ## 🎨 Installation
 
-<!-- Please replace "username/example" with your repository name. -->
-
 ```bash
 ya pack -a Chromium-3-Oxide/everforest-medium
 ```
@@ -22,11 +20,9 @@ ya pack -a Chromium-3-Oxide/everforest-medium
 
 Add the these lines to your `theme.toml` configuration file to use it:
 
-<!-- Please replace "example" with your flavor name. -->
-
 ```toml
 [flavor]
-use = "example"
+use = "everforest-medium"
 ```
 
 ## 📜 License
