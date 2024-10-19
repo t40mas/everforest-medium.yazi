@@ -15,7 +15,7 @@
 <!-- Please replace "username/example" with your repository name. -->
 
 ```bash
-ya pack -a username/example
+ya pack -a Chromium-3-Oxide/everforest-medium
 ```
 
 ## ⚙️ Usage
