@@ -42,7 +42,7 @@ syntect_theme = ""
 
  [mode]
 
- normal_main = { fg = "#343f44", bg = "#a7c080", bold = true }
+normal_main = { fg = "#343f44", bg = "#a7c080", bold = true }
 normal_alt = { fg = "#a7c080", bg = "#343f44", bold = true }
 
  # Select mode
