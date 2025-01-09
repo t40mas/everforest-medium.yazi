@@ -38,6 +38,22 @@ syntect_theme = ""
 
 # : }}}
 
+# : Mode {{{
+
+ [mode]
+
+ normal_main = { fg = "#343f44", bg = "#a7c080", bold = true }
+normal_alt = { fg = "#a7c080", bg = "#343f44", bold = true }
+
+ # Select mode
+select_main = { fg = "#343f44", bg = "#e67e80", bold = true }
+select_alt  = { fg = "#e67e80", bg = "#343f44", bold = true }
+
+ # Unset mode
+unset_main = { fg = "#343f44", bg = "#e67e80", bold = true }
+unset_alt  = { fg = "#e67e80", bg = "#343f44" }
+
+ # : }}}
 
 # : Status {{{
 
@@ -45,11 +61,6 @@ syntect_theme = ""
 separator_open  = ""
 separator_close = ""
 separator_style = { fg = "#343f44", bg = "#343f44" }
-
-# Mode
-mode_normal = { bg = "#7fbbb3", bold = true }
-mode_select = { bg = "#e67e80", bold = true }
-mode_unset  = { bg = "#e67e80", bold = true }
 
 # Progress
 progress_label  = { bold = true }
